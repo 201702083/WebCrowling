@@ -7,9 +7,12 @@ import org.jsoup.select.Elements;
 public class main {
     public static void main(String[] args) throws IOException {
 
+//   BEST
         String url = "http://digital.kyobobook.co.kr/digital/publicview/publicViewBest.ink?tabType=EBOOK&tabSrnb=12";
-        // 1위 ~ 20위 책을 보여주는 링크
-
+//   NEW      String url = "http://digital.kyobobook.co.kr/digital/publicview/publicViewFree.ink?tabType=EBOOK&tabSrnb=12";
+//   FREE     String url = "http://digital.kyobobook.co.kr/digital/publicview/publicViewNew.ink?tabType=EBOOK&tabSrnb=12R";
+//   RECOMMEND String url = "http://digital.kyobobook.co.kr/digital/publicview/publicViewMDRecommend.ink?tabType=";
+        // 페이지 골라서 링크 복붙해서 실행
         Document doc = Jsoup.connect(url).get();
 
         Elements titles = doc.select("div[class =\"title\"]");
