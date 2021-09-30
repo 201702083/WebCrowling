@@ -1,6 +1,7 @@
 # WebCrowling
 
-! src/lib/ 위치한 .jar 파일 라이브러리 추가해야함.
+### src/lib .jar 확인
+### Oracle query syntax
 
 - 책은 교보문고 사이트의 Best, New, Free, Recommend 카테고리에서 뽑아온다.
 - customer -> 100부터 1씩 증가하며 isbn을 생성한다. 이름 데이터는 총 200개에서 선택된다.
